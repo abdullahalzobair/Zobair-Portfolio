@@ -1,0 +1,22 @@
+.footer{
+    padding: 2rem 9%;
+    background: var(--bg-text-color);
+    color: var(--second-bg-text-color);
+}
+
+.footer-text p{
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:991px) {
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media screen and (max-width:365px) {
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    } 
+}

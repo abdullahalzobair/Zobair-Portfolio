@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './home.css';
 import { SiUpwork } from "react-icons/si";
 import { FaLinkedin, FaInstagram, FaYoutube, FaFacebook, FaGithub } from "react-icons/fa";

@@ -28,7 +28,7 @@ section{
 }
 
 body{
-    background: var(--second-bg-color);
+    background: var(--second-bg-text-color);
     color: var(--text-color);
 }
 
@@ -62,33 +62,6 @@ body{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-@keyframes wave-animation{
-    0% {
-        transform: rotate(0deg);
-    }
-    
-    10% {
-        transform: rotate(14deg);
-    }
-    20% {
-        transform: rotate(-8deg);
-    }
-    30% {
-        transform: rotate(14deg);
-    }
-    40% {
-        transform: rotate(-4deg);
-    }
-    50% {
-        transform: rotate(10deg);
-    }
-    60% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(0deg);
-    }
-}
 
 /* ===========MEDIA QUERIES (MEDIUM DEVICES)============= */
 

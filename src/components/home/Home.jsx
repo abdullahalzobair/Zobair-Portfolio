@@ -23,7 +23,7 @@ const Home = () => {
       <div className="home-content">
         <h3>Hello, It's ME</h3>
         <h1>Abdullah Al Zobair <span className='wave'>👋</span></h1>
-        <h3>And I'm <span className="multiple-text">Front-End React Developer</span></h3>
+        <h3>And I'm <span className="multiple-text"></span></h3>
         <p>Technology is my passion and I love 'Travelling' so much.</p>
         <HomeSocials/>
       </div>

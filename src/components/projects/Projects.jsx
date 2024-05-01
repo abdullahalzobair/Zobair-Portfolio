@@ -53,7 +53,7 @@ const Projects = () => {
                 <h4>{description}</h4>
                 <div className="projects-item-cta">
                   <a href={github} className='btn-primary' target='__blank'>Github</a>
-                  <a href={live} className='btn' target='__blank'>Live live</a>
+                  <a href={live} className='btn' target='__blank'>Live Link</a>
                   </div>
               </div>
             )

@@ -35,13 +35,13 @@
     color: var(--main-color);
 }
 
-@media screen and (max-width:991px) {
+@media(max-width:991px) {
     .navbar{
         padding: 2rem 3%;
     }
 }
 
-@media screen and (max-width:768px) {
+@media(max-width:768px) {
     .menu-icon{
         display: block;
     }

@@ -1,8 +1,119 @@
-.container {
-    padding: 200px 4rem;
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin-top: 5rem;
 }
 
-.new-projects {
-    font-size: 6rem;
-    text-align: center;
+.projects-item_image img{
+    width: 60rem;
+    border-radius: 2rem;
+}
+
+.projects-item{
+    border-radius: 2rem;
+    padding: 1rem;
+    border: 2px solid transparent;
+    transition:  all 400ms ease;
+}
+.projects-item:hover{
+    border-color: var(--bg-text-color);
+    background: transparent;
+}
+
+.projects-item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects-item h3{
+    font-size: 4rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.projects-item h4{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #555;
+    font-family: "Mulish", sans-serif;
+}
+
+.btn-primary{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 4rem;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid var(--bg-text-color);
+    border-radius: 5px;
+    font-size: 2rem;
+    color: var(--bg-text-colo);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background: var(--bg-text-color);
+    color: var(--second-bg-text-color);
+    box-shadow: 0 0 1rem var(--bg-text-color);
+}
+
+@media(max-width:1300px){
+    .projects-item{
+        padding-bottom: 0.5rem;
+    }
+    .projects-item_image img{
+        width: 50rem;
+    }
+    .projects-item h3{
+        font-size: 3.5rem;
+    }
+    .projects-item h4{
+        font-size: 1.5rem;
+    }
+    .btn-primary{
+        width: 8rem;
+        margin: 1rem 1rem 1rem 0;
+    }
+}
+
+@media(max-width:1080px){
+    .projects-item_image img{
+        width: 45rem;
+    }
+    .projects-item h3{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:925px){
+    .projects-item_image img{
+        width: 40rem;
+    }
+    .projects-item h3{
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width:825px){
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
+    .projects-item_image img{
+        width: 100%;
+    }
+}
+
+@media(max-width:600px){
+    .btn-primary{
+        width: 7rem;
+        height: 3rem;
+        border: 1px solid var(--bg-text-color);
+        font-size: 1.5rem;
+    }
 }

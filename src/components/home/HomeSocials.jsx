@@ -11,7 +11,7 @@ const HomeSocials = () => {
       <a href="https://www.instagram.com/abdullah_al_zobair" target='_blank'><FaInstagram /></a>
       <a href="https://www.youtube.com/@TechHackedZobair" target='_blank'><FaYoutube /></a>
       <a href="https://www.facebook.com/ZobairAlAbdulla" target='_blank'><FaFacebook /></a>
-      <a href="https://github.com/zobair2000" target='_blank'><FaGithub /></a>
+      <a href="https://github.com/abdullahalzobair" target='_blank'><FaGithub /></a>
      </div>
   )
 }

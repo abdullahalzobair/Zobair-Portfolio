@@ -8,13 +8,13 @@
     font-size: 1.6rem;
 }
 
-@media screen and (max-width:991px) {
+@media(max-width:991px) {
     .footer{
         padding: 2rem 3%;
     }
 }
 
-@media screen and (max-width:365px) {
+@media(max-width:365px) {
     .footer p{
         text-align: center;
         margin-top: 2rem;

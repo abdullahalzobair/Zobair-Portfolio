@@ -1,6 +1,6 @@
-import React from 'react';
-import './about.css';
-import { Meabout } from '../../assets';
+import React from "react";
+import "./about.css";
+import { Meabout } from "../../assets";
 
 const About = () => {
   return (
@@ -10,17 +10,22 @@ const About = () => {
       </div>
       <div className="about-content">
         <h2 className="heading">About Me</h2>
-        <h3>Front-End Developer <br /> based in Chattogram, Bangladesh📍</h3>
+        <h3>
+          MERN Stack Developer <br /> based in Chattogram, Bangladesh📍
+        </h3>
         <p>
-          Hey, my name is Zobair, and I'm a Frontend Developer.
-           My passion is to create and develop website for my users and clients.
-           </p>
-           <p>
-            My main stack currently is JavaScript/React.js in combination with Bootstrap and Tailwind CSS.
-           </p>
+          Hey, my name is Zobair, and I'm a MERN Stack Developer. My passion is
+          to provide the best websites and help clients bring their projects to
+          life.
+        </p>
+        <p>
+          My main stack currently includes HTML, CSS, Bootstrap, and Tailwind
+          CSS, along with JavaScript, React.js, Node.js, Express.js, and
+          MongoDB.
+        </p>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
